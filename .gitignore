@@ -1,0 +1,57 @@
+# 🔥 Python & FastAPI
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.log
+*.sqlite3
+*.db
+
+# 🔥 Virtual Environment & Environment Variables
+venv/
+.env
+*.env
+*.venv
+
+# 🔥 Dependencies & Build Files
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+poetry.lock
+pyproject.toml
+
+# 🔥 Alembic Migrations (Generated Files)
+migrations/versions/
+
+# 🔥 OS-Specific Files
+.DS_Store
+Thumbs.db
+
+# 🔥 IDE / Editor Specific Files
+.vscode/
+.idea/
+*.iml
+
+# 🔥 Frontend (Ignore `node_modules` and build files)
+frontend/node_modules/
+frontend-auth0/node_modules/
+frontend-auth0/**/dist/
+frontend-auth0/**/build/
+frontend/**/dist/
+frontend/**/build/
+
+# 🔥 Docker & CI/CD Files
+*.dockerignore
+docker-compose.override.yml
+
+# 🔥 Pytest / Testing
+.coverage
+pytest_cache/
+htmlcov/
+
+# 🔥 Logs & Debugging Files
+logs/
+*.log
